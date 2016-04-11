@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+nav ul a {
+	text-decoration: none;
+	color: #333333;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+nav {
+	background-image: url(../img/congruent_pentagon.png)
+}
+
+#sns img:nth-child(1) {
+	width: 30px;
+	height: 30px;
+}
+
+#sns img:nth-child(2) {
+	width: 30px;
+	height: 25px;
+}
+
+#sns img:nth-child(3) {
+	width: 30px;
+	height: 25px;
+}
