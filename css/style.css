@@ -2,23 +2,41 @@ body {
 	margin: 0;
 	font-family: 'Lato', sans-serif;
 }
-nav ul a {
-	text-decoration: none;
+
+#sns {
+	background-image: url(../img/congruent_pentagon.png);
+	padding: 20px;
+	padding-bottom: 80px;
+}
+
+#sns p {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #fefbf0;
+	padding: 10px 25px;
+	width: 100px;
+	border-radius: 13px;
+	text-align: center;
+	margin-top: 0;
+	float: right;
 	color: #333333;
 }
 
-nav ul {
-	list-style: none;
+#sns p:hover {
+	background-color: #333333;
+	color: #fefbf0;
 }
 
-nav li {
-	display: inline;
-	margin-left: 10px;
-	margin-right: 10px;
+#icons {
+	width: 800px;
+	height: 25px;
+	float: left;
 }
 
-nav {
-	background-image: url(../img/congruent_pentagon.png)
+#booknow {
+	width: 300px;
+	float: right;
+	margin-right: 15px;
 }
 
 #sns img:nth-child(1) {
@@ -28,10 +46,46 @@ nav {
 
 #sns img:nth-child(2) {
 	width: 30px;
-	height: 25px;
+	height: 20px;
 }
 
 #sns img:nth-child(3) {
 	width: 30px;
 	height: 25px;
 }
+
+#sns a img {
+	margin-right: 8px;	
+	max-height: 100%;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: #333333;
+}
+
+nav ul a:hover {
+	text-decoration: underline;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: 5px;
+	padding-left: 0;
+}
+
+nav li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#menu {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 20px;
+	position: relative;
+	top: -40px;
+}
+
