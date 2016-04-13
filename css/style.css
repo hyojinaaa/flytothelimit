@@ -6,7 +6,7 @@ body {
 #sns {
 	background-image: url(../img/congruent_pentagon.png);
 	padding: 20px;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
 }
 
 #sns p {
@@ -87,5 +87,36 @@ nav li {
 	padding-bottom: 20px;
 	position: relative;
 	top: -40px;
+	margin-bottom: -60px;
 }
+
+main img {
+/*	position: relative;
+	top: -60px;*/
+}
+
+footer {
+	width: 500px;
+	margin: 0 auto;
+	font-size: 12px;
+	/*position: relative;
+	top: -60px;*/
+}
+
+footer p {
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #333333;
+}
+
+
+
+
+
+
+
+
 
