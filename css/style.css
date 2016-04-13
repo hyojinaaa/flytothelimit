@@ -90,11 +90,6 @@ nav li {
 	margin-bottom: -60px;
 }
 
-main img {
-/*	position: relative;
-	top: -60px;*/
-}
-
 footer {
 	width: 500px;
 	margin: 0 auto;
@@ -111,6 +106,65 @@ footer a {
 	text-decoration: none;
 	color: #333333;
 }
+
+/*about team page*/
+
+#about {
+	text-align: center;
+	}
+
+#crew-p {
+	width: 600px;
+	margin: 0 auto;
+	background-color: yellow;
+	/*padding-bottom: 0;*/
+}
+
+hr {
+	width: 1500px;
+}
+
+#about ul {
+	list-style: none;
+}
+
+#about li {
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+
+#staffs a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid #333333;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+#staffs {
+	width: 1300px;
+	background-color: red;
+	margin: 0 auto;
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
