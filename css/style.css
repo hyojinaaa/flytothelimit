@@ -29,34 +29,23 @@ body {
 
 #icons {
 	width: 800px;
-	height: 25px;
 	float: left;
+}
+
+#icons i {
+	color: #6174c0;
+	font-size: 20px;
+	margin-right: 7px;
+}
+
+#icons i:hover {
+	color: #8bbdc1;
 }
 
 #booknow {
 	width: 300px;
 	float: right;
 	margin-right: 15px;
-}
-
-#sns img:nth-child(1) {
-	width: 30px;
-	height: 30px;
-}
-
-#sns img:nth-child(2) {
-	width: 30px;
-	height: 20px;
-}
-
-#sns img:nth-child(3) {
-	width: 30px;
-	height: 25px;
-}
-
-#sns a img {
-	margin-right: 8px;	
-	max-height: 100%;
 }
 
 nav ul a {
@@ -90,6 +79,36 @@ nav li {
 	margin-bottom: -60px;
 }
 
+.sub-menu {
+	display: none;
+	position: absolute;
+	background-color: #b1f6cd;
+	min-width: 130px;
+	z-index: 1;
+	padding: 12px 5px;
+	margin-top: 0;
+	left: 170px;
+}
+
+.sub-menu li {
+	display: block;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.sub-menu a {
+	display: inline-block;
+}
+
+#team:hover .sub-menu {
+	display: block;
+}
+
+.sub-menu:hover  {
+	display: block !important;
+}
+
+
 footer {
 	width: 500px;
 	margin: 0 auto;
@@ -113,41 +132,31 @@ footer a {
 	text-align: center;
 	}
 
-#crew-p {
+#crew {
 	width: 600px;
-	margin: 0 auto;
-	background-color: yellow;
-	/*padding-bottom: 0;*/
+	margin: 40px auto 60px auto;
+	
 }
 
 hr {
 	width: 1500px;
+	margin: 30px auto;
 }
 
-#about ul {
-	list-style: none;
-}
-
-#about li {
-	display: inline;
-	margin-right: 20px;
-	margin-left: 20px;
-
-}
-
-#staffs a {
-	text-decoration: none;
+#staffs button {
 	color: black;
 	border: 1px solid #333333;
 	padding: 30px;
 	border-radius: 10px;
+	margin: 10px 20px;
+	background-color: white;
+	font-size: 12px;
+	cursor: pointer;
 }
 
 #staffs {
 	width: 1300px;
-	background-color: red;
 	margin: 0 auto;
-	margin-right: 0;
 }
 
 
