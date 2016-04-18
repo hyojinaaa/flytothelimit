@@ -6,7 +6,7 @@ body {
 #sns {
 	background-image: url(../img/congruent_pentagon.png);
 	padding: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 80px;
 }
 
 #sns p {
@@ -59,7 +59,7 @@ nav ul a:hover {
 
 nav ul {
 	list-style: none;
-	margin-top: 5px;
+	margin-top: 20px;
 	padding-left: 0;
 }
 
@@ -75,8 +75,8 @@ nav li {
 	text-align: center;
 	padding-bottom: 20px;
 	position: relative;
-	top: -40px;
-	margin-bottom: -60px;
+	top: -60px;
+	margin-bottom: -60px;	
 }
 
 .sub-menu {
@@ -104,8 +104,51 @@ nav li {
 	display: block;
 }
 
+#gallery:hover .sub-menu {
+	display: block;
+}
+
 .sub-menu:hover  {
 	display: block !important;
+}
+
+.sub-menu-two {
+	display: none;
+	position: absolute;
+	background-color: #b1f6cd;
+	min-width: 130px;
+	z-index: 1;
+	padding: 12px 5px;
+	margin-top: 0;
+	left: 400px;
+}
+
+.sub-menu-two li {
+	display: block;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.sub-menu-two a {
+	display: inline-block;
+}
+
+#team:hover .sub-menu-two {
+	display: block;
+}
+
+#gallery:hover .sub-menu-two {
+	display: block;
+}
+
+.sub-menu-two:hover  {
+	display: block !important;
+}
+
+
+#home img {
+	width: 100%;
+	margin-top: 20px;	
 }
 
 
@@ -113,8 +156,8 @@ footer {
 	width: 500px;
 	margin: 0 auto;
 	font-size: 12px;
-	/*position: relative;
-	top: -60px;*/
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
 footer p {
@@ -132,18 +175,23 @@ footer a {
 	text-align: center;
 	}
 
-#crew {
+.about-para {
 	width: 600px;
 	margin: 40px auto 60px auto;
-	
+}
+
+.about-para p {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 hr {
 	width: 1500px;
 	margin: 30px auto;
+	margin-top: 50px;
 }
 
-#staffs button {
+.about-btn button {
 	color: black;
 	border: 1px solid #333333;
 	padding: 30px;
@@ -154,11 +202,14 @@ hr {
 	cursor: pointer;
 }
 
-#staffs {
+.about-btn {
 	width: 1300px;
 	margin: 0 auto;
 }
 
+.about-btn button:hover {
+	background-color: #abbcf8;
+}
 
 
 
