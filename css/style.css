@@ -211,10 +211,56 @@ hr {
 	background-color: #abbcf8;
 }
 
+#tourprice div {
+	width: 20%;
+	display: inline-block;
+}
 
+#tourprice div img {
+	width: 85%;
+	height: 85%;
+	position: relative;
+}
 
+#tourprice {
+	margin: 0 auto;
+}
 
+#tourprice {
+	width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+#tourprice h2 {
+	margin-bottom: 2px;
+	margin-top: 35px;
+}
+
+#indicatebooking {
+	text-decoration: none;
+	font-size: larger;
+}
+
+#tourprice .text-content {
+	display: none;
+}
+
+#tourprice div:hover .text-content {
+	display: block;
+	position: absolute;
+	left: 4px;
+	width: 100%;
+	top: 95px;
+}
+
+#tourprice div {
+	position: relative;
+}
+
+#tourprice div:hover img {
+	opacity: .5;
+}
 
 
 
