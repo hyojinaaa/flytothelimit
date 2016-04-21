@@ -165,8 +165,24 @@ footer p {
 }
 
 footer a {
+	color: #435aaa;
+	font-size: larger;
 	text-decoration: none;
-	color: #333333;
+	
+}
+
+footer ul {
+	list-style: none;
+	width: 400px;
+	text-align: center;
+	padding-left: 0;
+	margin: 0 auto;
+
+}
+
+footer li {
+	display: inline-block;
+	margin: 5px 20px; 
 }
 
 /*about team page*/
@@ -211,7 +227,7 @@ hr {
 .crew-btn a {
 	text-decoration: none;
 	color: black;
- 	padding: 20px 20px;
+ 	
  }
 
 .crew-btn:hover {
@@ -220,16 +236,16 @@ hr {
 
 /* pop-up */
 .overlay {
-	position: absolute;
-	left: 500px;
-	top: 60px;
+	position: fixed;
+	left: 650px;
+	top: 100px;
 	transition: opacity 500ms;
-	visibility: hidden;
+	display: none;
 	opacity: 0;
 }
 
 .overlay:target {
-	visibility: visible;
+	display: block;
 	opacity: 1;
 }
 
@@ -237,10 +253,11 @@ hr {
 	position: relative;
 	background: #ededed;
 	transition: all 5s ease-in-out;
-	width: 800px;
+	width: 600px;
 	padding: 40px;
 	text-align: center;
 	border-radius: 10px;
+	
 }
 
 .close {
@@ -259,10 +276,19 @@ hr {
 }
 
 .popup p {
-	width: 600px;
+	width: 450px;
 	margin: 0 auto;
 }
+
+.popup-photo {
+	width: 400px;
+	height: 250px;
+}
+
+
 /*finish*/
+
+
 #tourprice div {
 	width: 20%;
 	display: inline-block;
@@ -318,23 +344,17 @@ hr {
 /*Photo gallery*/
 
 #photo {
-	width: 1800px;
+	width: 1600px;
 	margin: 0 auto;
 	text-align: center;
 }
 
-#photo div {
-	display: inline-block;
+#whole-gallery img {
 	margin: 20px;
+	width: 400px;
+	height: 250px;
 }
 
-#photo img {
-	height: 350px;
-}
-
-#whold-gallery img:nth-child(1) {
-	width: 600px;
-}
 
 /* Video gallery*/
 .video-link {
@@ -355,13 +375,14 @@ hr {
 }
 
 #book div {
-	margin: 20px;
+	margin: 10px;
 }
 
 #registration input {
 	border: none;
 	border-bottom: 1px solid #aaaaaa;
 	margin-left: 5px;
+	background: none;
 
 }
 
@@ -375,7 +396,7 @@ hr {
 	padding: 10px 40px;
 	font-family: 'Lato', sans-serif;
 	border-radius: 7px;
-	background-color: #abbcf8;
+	background-color: #dbdcfd;
 	font-weight: bold;
 }
 
@@ -383,6 +404,38 @@ hr {
 	background-color: #435aaa;
 	color: white;
 }
+
+#book {
+	background-color: #d7f9e1;
+	border-radius: 20px;
+	width: 800px;
+	padding: 20px;
+}
+
+.choose div {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.choose div p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#registration textarea {
+	height: 50px;
+} 
+
+#registration label {
+	margin-right: 10px;
+}
+
+/* Contact Us */
+#map {
+	
+	height: 200px;
+}
+
 
 
 

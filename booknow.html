@@ -76,24 +76,54 @@
 				<span id="mobile-message"></span>
 			</div>
 
-			<p> Pick the place </p>
+			<div class="choose">
+				<div><p> Pick the place </p></div>
 
-			<div>
-				<input type="radio" name="place" id="wanaka">
-				<label for="wanaka">Wanaka</label>
+				<div>
+					<input type="radio" name="place" id="wanaka">
+					<label for="wanaka">Wanaka</label>
+				</div>
+
+				<div>
+					<input type="radio" name="place" id="queenstown">
+					<label for="queenstown">Queenstown</label>
+					<span id="campus-message"></span>
+				</div>
+			</div>
+
+			<div class="choose">
+				<div><p> Choose the product </p></div>
+
+				<div>
+					<select name="product" id="product">
+						<optgroup label="standard">Standard Flight
+							<option value="fixedwing">Fixed Wing $350/hr</option>
+							<option value="helicopter">Helicopter $450/hr</option>
+							<option value="glider">Glider Flights $1200/hr</option>
+						</optgroup>
+
+						<optgroup label="Photographic">Photographic Flight
+							<option value="fixedwing">Fixed Wing $350/hr</option>
+							<option value="helicopter">Helicopter $450/hr</option>
+							<option value="glider">Glider Flights $1200/hr</option>
+						</optgroup>
+					</select>
+				</div>
 			</div>
 
 			<div>
-				<input type="radio" name="place" id="queenstown">
-				<label for="queenstown">Queenstown</label>
-				<span id="campus-message"></span>
+				<label for="guset">Guest number</label>
+				<input type="number" id="guest" name="quantity" min="1" max="5">
+				<span id="guest-number-message"></span>
 			</div>
 
-			<p> Product </p>
-			<p> Date </p>
+			<div class="choose">
+				<div><p> Choose your date </p></div>
+				<input type="datetime" name="bookday">
+				<span id="datetime-message"></span>
 
-			
-		
+			</div>
+
 			<div>
 				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
@@ -108,7 +138,10 @@
 		<hr>
 
 		<footer>
-			<p> <a href="#">Site map</a> | <a href="#"> Contact Us</a></p> 
+			<ul>
+				 <li><a href="sitemap.html">Site map</a></li> |
+				 <li><a href="contactus.html"> Contact Us</a> </li>
+			</ul>
 			<p> Fly to the Limit, New Zealand &copy; All right reserved | Site by <a href="https://www.facebook.com/hyojin.jung.39?ref=bookmarks"> Hyojin Jung </a> </p>
 		</footer>
 
