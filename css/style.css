@@ -315,15 +315,74 @@ hr {
 	opacity: .5;
 }
 
+/*Photo gallery*/
 
+#photo {
+	width: 1800px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+#photo div {
+	display: inline-block;
+	margin: 20px;
+}
 
+#photo img {
+	height: 350px;
+}
 
+#whold-gallery img:nth-child(1) {
+	width: 600px;
+}
 
+/* Video gallery*/
+.video-link {
+	width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+.video-link iframe {
+	margin: 20px;
+}
 
+/*Booking Page*/
+#book {
+	width: 1300px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+#book div {
+	margin: 20px;
+}
 
+#registration input {
+	border: none;
+	border-bottom: 1px solid #aaaaaa;
+	margin-left: 5px;
+
+}
+
+#registration input[type="text"] {
+    font-family: 'Lato', sans-serif;
+    color: #555555;
+    font-size: 20px;
+}
+
+#submit-btn {
+	padding: 10px 40px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 7px;
+	background-color: #abbcf8;
+	font-weight: bold;
+}
+
+#submit-btn:hover {
+	background-color: #435aaa;
+	color: white;
+}
 
 
 
