@@ -21,7 +21,7 @@
 					<a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 				</div>
 				<div id="booknow">
-					<a href="booknow.html"><p>Book Now</p></a>
+					<a href=booknow.html><p>Book Now</p></a>
 				</div>
 			</div>
 
@@ -46,45 +46,63 @@
 			</div>
 		</nav>
 
-		<main id="tourprice">
-			<div>
-				<a href="https://www.youtube.com/watch?v=-V7Gk8N8ccs"><img src="img/fixedwing.png"></a>
-				<span class="text-content"><span>Watch our video >></span></span>
-				<p>Fixed Wing</p>
-				<p>$350/hr each passenger</p>
-			</div>
+		<main id="book">
 
-			<div>
-				<a href="https://www.youtube.com/watch?v=4oWngh572sU"><img src="img/helicopter.png"></a>
-				<span class="text-content"><span>Watch our video >></span></span>
-				<p>Helicoper</p>
-				<p>$450/hr each passenger</p>
-			</div>
-
-			<div>
-				<a href="https://www.youtube.com/watch?v=kqawMYEHW2c"><img src="img/glider.png"></a>
-				<span class="text-content"><span>Watch our video >></span></span>
-				<p>Glider flights</p>
-				<p>$1200/hr - 3 hours recommended</p>
-			</div>
-
-			<h2>Standard Flight</h2>
-			<p>1hr scenic<br>
-			2hr scenic<br>
-			Mountain viewing (including Mt Cook) at sunset<br>
-			Lake trips on our amphibian aircraft. Fully catered day trips or drop off and pickup.</p>
+			<h2> Online Booking </h2>
+			<form action="something.php" method="post" id="registration">
 			
-			<h2>Photographic Flights</h2>
-			<p>Doors can removed (by arrangement) for professional assignments.</p>
+			<div>
+				<label for="firstname">First name</label>
+				<input type="text" id="firstname">
+				<span id="firstname-message"></span>
 
-			<br>
+			</div>
 
-			<p>Charters available by the day or week.<br>
-			Fully catered multi day remote high country tramps - fly in fly out</p>
+			<div>
+				<label for="lastname">Last name</label>
+				<input type="text" id="lastname">
+				<span id="lastname-message"></span>
+			</div>
 
-			<br>
+			<div>
+				<label for="email">Email</label>
+				<input type="text" id="email">
+				<span id="email-message"></span>
+			</div>
 
-			<a href="booknow.html" id="indicatebooking">Go to the booking page >></a>
+			<div>
+				<label for="mobile">Mobile</label>
+				<input type="text" id="mobile">
+				<span id="mobile-message"></span>
+			</div>
+
+			<p> Pick the place </p>
+
+			<div>
+				<input type="radio" name="place" id="wanaka">
+				<label for="wanaka">Wanaka</label>
+			</div>
+
+			<div>
+				<input type="radio" name="place" id="queenstown">
+				<label for="queenstown">Queenstown</label>
+				<span id="campus-message"></span>
+			</div>
+
+			<p> Product </p>
+			<p> Date </p>
+
+			
+		
+			<div>
+				<label for="message">Message</label>
+				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<span id="message-message">0/240</span>
+			</div>
+
+				<input type="submit" value="submit" id="submit-btn">
+		</form>
+			
 		</main>
 
 		<hr>

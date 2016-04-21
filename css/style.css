@@ -191,26 +191,78 @@ hr {
 	margin-top: 50px;
 }
 
-.about-btn button {
-	color: black;
-	border: 1px solid #333333;
-	padding: 30px;
-	border-radius: 10px;
-	margin: 10px 20px;
-	background-color: white;
-	font-size: 12px;
-	cursor: pointer;
-}
-
 .about-btn {
-	width: 1300px;
+	width: 1500px;
 	margin: 0 auto;
 }
 
-.about-btn button:hover {
+.crew-btn {
+	border: 1px solid #333333;
+	padding: 20px 0;
+	border-radius: 10px;
+	margin: 10px 20px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 10%;
+	display: inline-block;
+
+}	
+
+.crew-btn a {
+	text-decoration: none;
+	color: black;
+ 	padding: 20px 20px;
+ }
+
+.crew-btn:hover {
 	background-color: #abbcf8;
 }
 
+/* pop-up */
+.overlay {
+	position: absolute;
+	left: 500px;
+	top: 60px;
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	position: relative;
+	background: #ededed;
+	transition: all 5s ease-in-out;
+	width: 800px;
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.close:hover {
+	color: orange;
+}
+
+.popup p {
+	width: 600px;
+	margin: 0 auto;
+}
+/*finish*/
 #tourprice div {
 	width: 20%;
 	display: inline-block;
@@ -263,14 +315,74 @@ hr {
 }
 
 
+/*Photo gallery*/
 
+#photo {
+	width: 1800px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+#photo div {
+	display: inline-block;
+	margin: 20px;
+}
 
+#photo img {
+	height: 350px;
+}
 
+#whold-gallery img:nth-child(1) {
+	width: 600px;
+}
 
+/* Video gallery*/
+.video-link {
+	width: 1500px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+.video-link iframe {
+	margin: 20px;
+}
 
+/*Booking Page*/
+#book {
+	width: 1300px;
+	margin: 0 auto;
+	text-align: center;
+}
 
+#book div {
+	margin: 20px;
+}
+
+#registration input {
+	border: none;
+	border-bottom: 1px solid #aaaaaa;
+	margin-left: 5px;
+
+}
+
+#registration input[type="text"] {
+    font-family: 'Lato', sans-serif;
+    color: #555555;
+    font-size: 20px;
+}
+
+#submit-btn {
+	padding: 10px 40px;
+	font-family: 'Lato', sans-serif;
+	border-radius: 7px;
+	background-color: #abbcf8;
+	font-weight: bold;
+}
+
+#submit-btn:hover {
+	background-color: #435aaa;
+	color: white;
+}
 
 
 
