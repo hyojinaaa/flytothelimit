@@ -168,6 +168,7 @@ footer a {
 	color: #435aaa;
 	font-size: larger;
 	text-decoration: none;
+	text-align: center;
 	
 }
 
@@ -356,6 +357,7 @@ hr {
 }
 
 
+
 /* Video gallery*/
 .video-link {
 	width: 1500px;
@@ -369,13 +371,27 @@ hr {
 
 /*Booking Page*/
 #book {
-	width: 1300px;
+	width: 800px;
 	margin: 0 auto;
-	text-align: center;
+	background-color: #d7f9e1;
+	border-radius: 20px;
+	padding: 20px;
 }
 
 #book div {
 	margin: 10px;
+}
+
+.choose div {
+	margin-left: 0 !important;
+}
+
+#book form {
+	margin-left: 30px;
+}
+
+#book h2 {
+	text-align: center;
 }
 
 #registration input {
@@ -383,7 +399,14 @@ hr {
 	border-bottom: 1px solid #aaaaaa;
 	margin-left: 5px;
 	background: none;
+}
 
+#email {
+	width: 250px;
+}
+
+#datetime {
+	width: 70px;
 }
 
 #registration input[type="text"] {
@@ -392,24 +415,25 @@ hr {
     font-size: 20px;
 }
 
+#registration span {
+	font-size: 14px;
+	margin-left: 10px;
+	color: purple;
+}
+
 #submit-btn {
 	padding: 10px 40px;
 	font-family: 'Lato', sans-serif;
 	border-radius: 7px;
-	background-color: #dbdcfd;
+	background-color: #dbdcfd !important;
 	font-weight: bold;
+	cursor: pointer;
+	margin-left: 300px !important;
 }
 
 #submit-btn:hover {
 	background-color: #435aaa;
-	color: white;
-}
-
-#book {
-	background-color: #d7f9e1;
-	border-radius: 20px;
-	width: 800px;
-	padding: 20px;
+	color: green;
 }
 
 .choose div {
@@ -423,6 +447,7 @@ hr {
 }
 
 #registration textarea {
+	width: 300px;
 	height: 50px;
 } 
 
@@ -431,9 +456,20 @@ hr {
 }
 
 /* Contact Us */
-#map {
-	
-	height: 200px;
+#map1 {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#map2 {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#contact-us {
+	text-align: center;
 }
 
 

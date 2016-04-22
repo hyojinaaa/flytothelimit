@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Fly to the Limit</title>
-		<meta name="description" content="Between 150 and 160 characters">
+		<meta name="aircraft adventure" content="helicopter, fixed wing, glider flight, adventure, flight, wanaka, queenstown, sightseeing">
 		<link rel="stylesheet" href="css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,100' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -11,7 +11,7 @@
 	<body>
 
 		<!--Main content goes here-->
-		<nav>
+		<nav> 
 
 			<div id="sns">
 				<div id="icons">
@@ -53,49 +53,34 @@
 			
 			<div>
 				<label for="firstname">First name</label>
-				<input type="text" id="firstname">
+				<input type="text" id="firstname" required="">
 				<span id="firstname-message"></span>
 
 			</div>
 
 			<div>
 				<label for="lastname">Last name</label>
-				<input type="text" id="lastname">
+				<input type="text" id="lastname" required="">
 				<span id="lastname-message"></span>
 			</div>
 
 			<div>
 				<label for="email">Email</label>
-				<input type="text" id="email">
+				<input type="text" id="email" required placeholder="example@example.com" required>
 				<span id="email-message"></span>
 			</div>
 
 			<div>
 				<label for="mobile">Mobile</label>
-				<input type="text" id="mobile">
+				<input type="text" id="mobile" required placeholder="012 345 6789" required>
 				<span id="mobile-message"></span>
-			</div>
-
-			<div class="choose">
-				<div><p> Pick the place </p></div>
-
-				<div>
-					<input type="radio" name="place" id="wanaka">
-					<label for="wanaka">Wanaka</label>
-				</div>
-
-				<div>
-					<input type="radio" name="place" id="queenstown">
-					<label for="queenstown">Queenstown</label>
-					<span id="campus-message"></span>
-				</div>
 			</div>
 
 			<div class="choose">
 				<div><p> Choose the product </p></div>
 
 				<div>
-					<select name="product" id="product">
+					<select name="product" id="product" required>
 						<optgroup label="standard">Standard Flight
 							<option value="fixedwing">Fixed Wing $350/hr</option>
 							<option value="helicopter">Helicopter $450/hr</option>
@@ -113,24 +98,89 @@
 
 			<div>
 				<label for="guset">Guest number</label>
-				<input type="number" id="guest" name="quantity" min="1" max="5">
+				<input type="number" id="guest" name="quantity" min="1" max="5" required>
 				<span id="guest-number-message"></span>
 			</div>
 
 			<div class="choose">
 				<div><p> Choose your date </p></div>
-				<input type="datetime" name="bookday">
-				<span id="datetime-message"></span>
+				<input type="date" name="bookday" id="date" required>
+				<span id="date-message"></span>
 
+			</div>
+
+			<div class="choose">
+				<div><p> Choose start time </p></div>
+
+				<div>
+					<select name="time" id="am-pm" required>
+						
+							<option value="am">AM</option>
+							<option value="pm">PM</option>
+					</select>
+				</div>
+
+				<div>
+					<select name="time" id="time" required>
+						
+							<option value="1">1:00</option>
+							<option value="2">2:00</option>
+							<option value="3">3:00</option>
+							<option value="4">4:00</option>
+							<option value="5">5:00</option>
+							<option value="6">6:00</option>
+							<option value="7">7:00</option>
+							<option value="8">8:00</option>
+							<option value="9">9:00</option>
+							<option value="10">10:00</option>
+							<option value="11">11:00</option>
+							<option value="12">12:00</option>
+							
+					</select>
+				</div>
+
+
+			</div>
+
+			<div class="choose">
+				<div><p> Choose a pickup place </p></div>
+
+				<div>
+					<input type="radio" name="place" id="wanaka">
+					<label for="wanaka">Wanaka</label>
+				</div>
+
+				<div>
+					<input type="radio" name="place" id="queenstown">
+					<label for="queenstown">Queenstown</label>
+					
+				</div>
+			</div>
+
+			<div class="choose">
+				<div><p> Choose a pickup time </p></div>
+
+				<div>
+					<select name="pickuptime" id="pickuptime" required>
+						
+							<option value="1hour">1 hour earlier</option>
+							<option value="2hours">2 hours earlier</option>
+							<option value="3hours">3 hours earlier</option>
+							<option value="3hours">Don't need a pickup</option>
+							
+					</select>
+				</div>
 			</div>
 
 			<div>
 				<label for="message">Message</label>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				<textarea name="message" id="message" cols="30" rows="10" required placeholder="Please write here if you have any health problem to be concerned or question"></textarea>
 				<span id="message-message">0/240</span>
 			</div>
 
-				<input type="submit" value="submit" id="submit-btn">
+			
+
+				<input type="submit" value="submit" id="submit-btn" onclick="clicked();">
 		</form>
 			
 		</main>
@@ -138,10 +188,7 @@
 		<hr>
 
 		<footer>
-			<ul>
-				 <li><a href="sitemap.html">Site map</a></li> |
-				 <li><a href="contactus.html"> Contact Us</a> </li>
-			</ul>
+			<p><a href="contactus.html"> Contact Us</a></p>
 			<p> Fly to the Limit, New Zealand &copy; All right reserved | Site by <a href="https://www.facebook.com/hyojin.jung.39?ref=bookmarks"> Hyojin Jung </a> </p>
 		</footer>
 
