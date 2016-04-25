@@ -151,6 +151,9 @@ nav li {
 	margin-top: 20px;	
 }
 
+.main {
+	width: 100%;
+}
 
 footer {
 	width: 500px;
