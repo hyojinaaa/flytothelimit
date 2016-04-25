@@ -155,6 +155,7 @@ nav li {
 	width: 100%;
 }
 
+
 footer {
 	width: 500px;
 	margin: 0 auto;
@@ -344,7 +345,7 @@ hr {
 /*Photo gallery*/
 
 #photo {
-	width: 1600px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -358,6 +359,10 @@ hr {
 
 
 /* Video gallery*/
+#video {
+	width: 100%;
+}
+
 .video-link {
 	width: 1500px;
 	margin: 0 auto;
